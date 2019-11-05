@@ -15,10 +15,10 @@ figure; % open a new figure window
 % Hint: You can use the 'rx' option with plot to have the markers
 %       appear as red crosses. Furthermore, you can make the
 %       markers larger by using plot(..., 'rx', 'MarkerSize', 10);
-
-
-
-
+plot(x, y, "*", 'color', 'r', 'MarkerSize', 20)
+xlabel('Population (10^4)')
+ylabel('Profit (10^4 dollars)')
+print -dpng population_profit.png
 
 % ============================================================
 
